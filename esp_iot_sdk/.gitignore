@@ -1,0 +1,9 @@
+/bin
+/document
+/ld
+/lib
+/tools
+*.bin
+*.pdf
+*.out
+*.output

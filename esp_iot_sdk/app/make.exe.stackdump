@@ -1,0 +1,19 @@
+MSYS - 1.0.11 Build: 2009 - 07 - 11 17: 46
+Exception:
+STATUS_ACCESS_VIOLATION at eip = 71008DEA
+								 eax = 680A27EC ebx = 6857022C ecx = 00572B84 edx = 000000B8 esi = 00000000 edi = 685700D4
+										 ebp = 0023FE9C esp = 0023FE78 program = c:
+												 \usr\xtensa\mingw\bin\make.exe
+												 cs = 001B ds = 0023 es = 0023 fs = 003B gs = 0000 ss = 0023
+														 Stack trace:
+														 Frame     Function  Args
+														 0023FE9C  71008DEA(685700D4, 000000B8, 00000003, 7100450A)
+														 0023FEEC  7100468B(00000000, 00000000, 0023FF2C, 00425380)
+														 0023FF0C  71004C7F(00412340, 00000000, 00000000, 00000000)
+														 0023FF2C  71004CB8(00000000, 00000000, 00000000, 00000000)
+														 0023FF5C  00425200(00412340, 00000000, 00000000, 00000000)
+														 0023FF8C  0040103D(7FFDE000, 0023FFDC, 778BC206, 7FFDE000)
+														 0023FF98  75A316E8(7FFDE000, BF58E61E, 00000000, 00000000)
+														 0023FFDC  778BC206(FFFFFFFF, 778E0D13, 00000000, 00000000)
+														 0023FFEC  778BC1DF(00401000, 7FFDE000, 00000000, 78746341)
+														 End of stack trace
